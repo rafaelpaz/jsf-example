@@ -18,7 +18,7 @@ With Wildfly 21.0.1.Final, the JSF application fail when the following config is
 
 To replicate the bug, it's necessary to use the standalone.xml in the wildfly folder, which contains the cache configuration above.
 
-Package tha app with maven:
+Package the app with maven:
 `mvn clean package`
 
 Copy the file target/jsf-example.war to the deployments folder of Wildfly, or just build and run a Docker image:
